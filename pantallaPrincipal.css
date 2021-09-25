@@ -1,0 +1,28 @@
+
+            
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:16px;
+    } 
+    nav li{  
+    display:inline-block;
+    width:16%;
+    padding:16px 16px;
+    background-color:#000;
+    border:1px solid #000;
+    border-radius: 8px;
+    text-align:center;
+    color:#fff;
+    }
+    nav li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+
+.posicionBarraMenu{
+    position: absolute;
+    left: 560px;
+    background-color: brown;
+    width: 624px;
+}    
