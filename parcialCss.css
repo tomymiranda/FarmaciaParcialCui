@@ -1,0 +1,13 @@
+.fondoDePagina{
+    background-color:white;
+}
+.logoImagenLogin{
+    position: absolute;
+    left: 144px;
+    top: 248px;
+}
+.cajaUsuario{
+    position: absolute;
+    left: 750px;
+    top: 224px;
+}
