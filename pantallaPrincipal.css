@@ -1,35 +1,115 @@
-
-            
+ /*           
 nav a{
     text-decoration:none;
     color:inherit;
     font-size:16px;
+    font-family: 'Open Sans', sans-serif;
     } 
     nav li{  
     display:inline-block;
     width:16%;
-    padding:16px 16px;
+    padding:24px 32px;
     background-color:#000;
     border:1px solid #000;
     border-radius: 8px;
     text-align:center;
     color:#fff;
     }
-    nav li:hover{
-    background-color:#fff;
-    color:#000;
-    }
+    
+*/
+.fondoDePagina{
+        background-color:white;
+}
 
 .posicionBarraMenu{
     position: absolute;
-    left: 560px;
+    left: 500px;
     background-color: brown;
-    width: 624px;
+    width: 880px;
     top: 0px;
+}
+.pos{
+    text-align: right;
+    margin: 24px;
+}
+
+.posicionDeCajasDeHeader{
+    display:inline-block;
+    text-align: center;
+}
+.cajaInicio{
+    text-decoration:none;
+    color:inherit;
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+
+    padding:24px 40px;
+    background-color:#000;
+    border:1px solid #000;
+    border-radius: 8px;
+    text-align:center;
+    color:#fff;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.cajaContacto{
+    text-decoration:none;
+    color:inherit;
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+    
+    padding:24px 40px;
+    background-color:#000;
+    border:1px solid #000;
+    border-radius: 8px;
+    text-align:center;
+    color:#fff;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.botonFarmaciasAderidas{
+    text-decoration:none;
+    color:inherit;
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+    
+    padding:24px 40px;
+    background-color:#000;
+    border:1px solid #000;
+    border-radius: 8px;
+    text-align:center;
+    color:#fff;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.botonSalir{
+    text-decoration:none;
+    color:inherit;
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+  
+    padding:24px 40px;
+    background-color:#000;
+    border:1px solid #000;
+    border-radius: 8px;
+    text-align:center;
+    color:#fff;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
 .imagenLogo{
     position: fixed;
     left: 46px;
     top: 24px;
-    width: 196px;
+    width: 296px;
+    height: 102px;
 }    
