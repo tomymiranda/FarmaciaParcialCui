@@ -8,6 +8,124 @@
 }
 .cajaUsuario{
     position: absolute;
-    left: 750px;
-    top: 224px;
+    width: 400px;
+    height: 72px;
+    left: 96px;
+    top: 134px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    
 }
+
+.cajaContraseña{
+    position: absolute;
+    width: 400px;
+    height: 72px;
+    left: 96px;
+    top: 229px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+
+}
+
+.botonIniciarSesion{
+
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+position: absolute;
+width: 400px;
+height: 72px;
+left: 96px;
+top: 325px;
+
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+
+
+text-align: center;
+
+border-radius: 8px;
+}
+.cajaContenedora{
+position: absolute;
+width: 592px;
+height: 632px;
+left: 1024px;
+top: 176px;
+background-color: aliceblue;
+}
+
+.acasoOlvidasteContrasenia{
+position: absolute;
+width: 336px;
+height: 24px;
+left: 128px;
+top: 408px;
+    
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+align-items: flex-end;
+text-align: center;
+}
+
+.crearCuenta{
+
+   
+position: absolute;
+width: 216px;
+height: 72px;
+left: calc(50% - 216px/2);
+top: calc(50% - 72px/2 + 200px);  
+border-radius: 8px;  
+
+font-family: 'Open Sans', sans-serif; 
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+align-items: flex-end;
+text-align: center;
+}
+
+.cajaDeMensaje{
+position: absolute;    
+background-color: red;
+width: 520px;
+height: 72px;
+left: 32px;
+top: 16px;
+}
+.tituloDeBienvenidaLogin{
+position: absolute;
+width: 520px;
+height: 72px;
+left: 34px;
+top: 12px;
+    
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 65px;
+align-items: flex-end;
+text-align: center;
+    
+}
+::placeholder{
+position: absolute;
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-size: 32px;
+line-height: 64px;
+}
+/*hasta aca los css de pantalla loggin*/
