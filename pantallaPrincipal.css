@@ -1,30 +1,11 @@
- /*           
-nav a{
-    text-decoration:none;
-    color:inherit;
-    font-size:16px;
-    font-family: 'Open Sans', sans-serif;
-    } 
-    nav li{  
-    display:inline-block;
-    width:16%;
-    padding:24px 32px;
-    background-color:#000;
-    border:1px solid #000;
-    border-radius: 8px;
-    text-align:center;
-    color:#fff;
-    }
-    
-*/
 .fondoDePagina{
         background-color:white;
 }
 
 .posicionBarraMenu{
     position: absolute;
-    left: 500px;
-    background-color: brown;
+    left: 488px;
+    
     width: 880px;
     top: 0px;
 }
@@ -35,7 +16,6 @@ nav a{
 
 .posicionDeCajasDeHeader{
     display:inline-block;
-    text-align: center;
 }
 .cajaInicio{
     text-decoration:none;
@@ -43,7 +23,7 @@ nav a{
     font-size:16px;
     font-family: 'Open Sans', sans-serif;
 
-    padding:24px 40px;
+    padding:24px 48px;
     background-color:#000;
     border:1px solid #000;
     border-radius: 8px;
@@ -53,6 +33,7 @@ nav a{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    margin-right: 24px;
 }
 
 .cajaContacto{
@@ -61,7 +42,7 @@ nav a{
     font-size:16px;
     font-family: 'Open Sans', sans-serif;
     
-    padding:24px 40px;
+    padding:24px 48px;
     background-color:#000;
     border:1px solid #000;
     border-radius: 8px;
@@ -71,6 +52,7 @@ nav a{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    margin-right: 24px;
 }
 .botonFarmaciasAderidas{
     text-decoration:none;
@@ -78,7 +60,7 @@ nav a{
     font-size:16px;
     font-family: 'Open Sans', sans-serif;
     
-    padding:24px 40px;
+    padding:24px 48px;
     background-color:#000;
     border:1px solid #000;
     border-radius: 8px;
@@ -88,6 +70,7 @@ nav a{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    margin-right: 24px;
 }
 .botonSalir{
     text-decoration:none;
@@ -95,7 +78,7 @@ nav a{
     font-size:16px;
     font-family: 'Open Sans', sans-serif;
   
-    padding:24px 40px;
+    padding:24px 48px;
     background-color:#000;
     border:1px solid #000;
     border-radius: 8px;
@@ -105,6 +88,7 @@ nav a{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    margin-right: 24px;
 }
 .imagenLogo{
     position: fixed;

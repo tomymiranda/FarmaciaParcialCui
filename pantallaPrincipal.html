@@ -9,7 +9,6 @@
 <body class="fondoDePagina">
 <div>
   <header>
-    
     <div>
       <img src="ba-header-vb.svg" class="imagenLogo">
     </div>
@@ -17,22 +16,27 @@
     <div class="posicionBarraMenu">
       <nav class="pos">
         <ul>
-          <li class="posicionDeCajasDeHeader"><button class="cajaInicio">Inicio</button></li>
+          <li class="posicionDeCajasDeHeader"><button id="botonInicio" class="cajaInicio">Inicio</button></li>
           <li class="posicionDeCajasDeHeader"><button class="botonFarmaciasAderidas">Farmacias Adheridas</button></li>
           <li class="posicionDeCajasDeHeader"><button class="cajaContacto">Contacto</button></li>
-          <li class="posicionDeCajasDeHeader"><button class="botonSalir">Salir</button></li>
+          <li class="posicionDeCajasDeHeader"><button id="botonSalir" class="botonSalir">Salir</button></li>
         </ul>
       </nav>
-  
     </div>
     </header>
 </div>
 
-  
-  
+<div></div>
+<div></div>
+<div></div>
+<script>
+function redirigir(){
+  window.location.href ="pantallaLogin.html";
+}
+document.getElementById("botonSalir").addEventListener("click",redirigir);
 
-
-
+</script>
 
 </body>
+
 </html>
