@@ -25,4 +25,11 @@ nav a{
     left: 560px;
     background-color: brown;
     width: 624px;
+    top: 0px;
+}
+.imagenLogo{
+    position: fixed;
+    left: 46px;
+    top: 24px;
+    width: 196px;
 }    
