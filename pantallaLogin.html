@@ -9,11 +9,29 @@
 <body class="fondoDePagina">
 
   <div>
-      <img class ="logoImagenLogin" src="logo 500.png">
+    <!–– <img class ="logoImagenLogin" src="logo 500.png"> ––>
+    <img class="logoImagenLogin" src="logo 700.png">
   </div>
 
-  <div>
-    <input type="text" name="cajaUsuario" placeholder ="Usuario" class="cajaUsuario"><br>
+  <div class="cajaContenedora">
+    <div>
+      <h1 class="tituloDeBienvenidaLogin">Bienvenido otra vez</h1>
+    </div>
+
+    <div>
+      <input id="ingresoUsuario" type="text" name="cajaUsuario" placeholder ="Usuario" class="cajaUsuario"><br>
+      <input id="claveUsuario"type="password" name="cajaContraseña" placeholder ="Contraseña" class="cajaContraseña" minslength="4"><br>
+    </div>
+
+    <div>
+      <button type="submit" class="botonIniciarSesion">Iniciar sesion</button>
+    </div>
+    <div>
+      <a href="#" class="acasoOlvidasteContrasenia">Acaso olvidaste tu Contraseña</a>
+    </div>
+    <div>
+      <button class="crearCuenta">Crear cuenta</button>
+    </div>
   </div>
   
 </body>
