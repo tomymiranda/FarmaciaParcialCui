@@ -1,14 +1,26 @@
 .fondoDePagina{
-        background-color:white;
+    background-color:white;
 }
 
+.cajaDContenedoraHeader{
+    position: absolute;
+    width: 1408px;
+    height: 136px;
+    left: 0px;
+}
 .posicionBarraMenu{
     position: absolute;
     left: 488px;
-    
     width: 880px;
     top: 0px;
 }
+.imagenLogo{
+    position: fixed;
+    left: 46px;
+    top: 24px;
+    width: 296px;
+    height: 102px;
+}    
 .pos{
     text-align: right;
     margin: 24px;
@@ -90,10 +102,134 @@
     align-items: flex-start;
     margin-right: 24px;
 }
-.imagenLogo{
-    position: fixed;
-    left: 46px;
-    top: 24px;
+.numeroDescuento{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 8px;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.letraDescuento{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    
+    font-size: 32px;
+    line-height: 60px;
+   
+    align-items: flex-end;
+    text-align: center;
+}
+
+.letraFarmacia{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 0px;
+    
+    align-items: flex-end;
+    text-align: left;
+}
+.letraDireccion{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 24px;
+    
+    align-items: flex-end;
+    text-align: left;
+}
+.letraFechaDeVencimiento{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    
+    align-items: flex-end;
+    text-align: left;
+}
+/*posiciones descuento 1*/
+.posicionCajaDescuento1{
+    background-color:#EAE9E9;
+    border:1px solid #000;
+    border-style: dotted;
+    position: absolute;
+    width: 624px;
+    height: 144px;
+    left: 64px;
+    top: 338px;
+}
+.posiocionCajaSucursal1{
+    background-color:#EAE9E9;
+    border:1px solid #000;
+    border-style: dotted;
+    position: absolute;
+    width: 624px;
+    height: 144px;
+    left: 688px;
+    top: 338px;
+}
+.posDescuentoNumero1{
+    position: absolute;
+    width: 90px;
+    height: 72px;
+    left: 266px;
+    top: 0px;
+}
+.posLetraDescuento1{
+    position: absolute;
     width: 296px;
-    height: 102px;
-}    
+    height: 60px;
+    left: 164px;
+    top: 60px;
+}
+.posNombreFarmacia1{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+.posDireccionFarmacia1{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 0px;
+    top: 32px;
+    
+}
+.posFechaVencimiento1{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 0px;
+    top: 72px;
+}
+/*posiciones descuento 2*/
+.posicionCajaDescuento2{
+    position: absolute;
+    width: 624px;
+    height: 120px;
+    left: 64px;
+    top: 506px;
+
+background: #EAE9E9;
+}
+.posDescuentoNumero2{
+    position: absolute;
+    width: 90px;
+    height: 72px;
+    left: 266px;
+}
+.posiocionCajaSucursal2{
+    position: absolute;
+    width: 624px;
+    height: 144px;
+    left: 688px;
+    top: 506px;
+}
