@@ -63,7 +63,7 @@ width: 592px;
 height: 632px;
 left: 1024px;
 top: 176px;
-background-color: #e5e5e5;
+background-color: #c5c3c2;
 text-align: center;
 }
 
@@ -133,4 +133,7 @@ font-style: normal;
 font-size: 32px;
 line-height: 64px;
 }
+input:valid {
+    background-color: powderblue;
+  }
 /*hasta aca los css de pantalla loggin*/
