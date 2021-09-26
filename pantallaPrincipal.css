@@ -40,90 +40,38 @@
     background-color:#000;
     border:1px solid #000;
     text-align:center;
-    color:#fff;
+    color:#717170;
 
 
-    background: #ABAAAA;
+    background: white;
     flex-direction: row;
     display: flex;
     margin-right: 24px;
     position: absolute;
     left: -112px;
     top: 24px;
-   
 }
-.cajaInicio{
-    text-decoration:none;
-    color:inherit;
-    font-size:16px;
-    font-family: 'Open Sans', sans-serif;
-
-    padding:24px 48px;
-    background-color:#000;
-    border:1px solid #000;
-    border-radius: 8px;
-    text-align:center;
-    color:#fff;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin-right: 24px;
-}
-
-.botonContacto{
+.boton{
     text-decoration:none;
     color:inherit;
     font-size:16px;
     font-family: 'Open Sans', sans-serif;
     
     padding:24px 48px;
-    background-color:#000;
-    border:1px solid #000;
+    background-color: white;
+    border:1px solid #e5e5e5;
     border-radius: 8px;
     text-align:center;
-    color:#fff;
+    color:#717170;
 
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     margin-right: 24px;
 }
-.botonFarmaciasAdheridas{
-    text-decoration:none;
-    color:inherit;
-    font-size:16px;
-    font-family: 'Open Sans', sans-serif;
-    
-    padding:24px 48px;
-    background-color:#000;
-    border:1px solid #000;
-    border-radius: 8px;
-    text-align:center;
-    color:#fff;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin-right: 24px;
-}
-.botonSalir{
-    text-decoration:none;
-    color:inherit;
-    font-size:16px;
-    font-family: 'Open Sans', sans-serif;
-  
-    padding:24px 48px;
-    background-color:#000;
-    border:1px solid #000;
-    border-radius: 8px;
-    text-align:center;
-    color:#fff;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin-right: 24px;
+.colorSalir{
+    background-color: #e74c3c;
+    color: #fff;
 }
 /*tipografia de numero y descuento*/
 .numeroDescuento{
