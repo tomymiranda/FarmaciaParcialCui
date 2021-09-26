@@ -10,13 +10,13 @@
 }
 .posicionBarraMenu{
     position: absolute;
-    left: 488px;
+    left: 480px;
     width: 880px;
     top: 0px;
 }
 .imagenLogo{
     position: absolute;
-    left: 48px;
+    left: 0px;
     top: 16px;
     width: 296px;
     height: 102px;
@@ -28,6 +28,29 @@
 
 .posicionDeCajasDeHeader{
     display:inline-block;
+}
+
+.usuarioLogeado{
+    text-decoration:none;
+    color:inherit;
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+
+    padding:24px 48px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+
+
+    background: #ABAAAA;
+    flex-direction: row;
+    display: flex;
+    margin-right: 24px;
+    position: absolute;
+    left: -112px;
+    top: 24px;
+   
 }
 .cajaInicio{
     text-decoration:none;
@@ -48,7 +71,7 @@
     margin-right: 24px;
 }
 
-.cajaContacto{
+.botonContacto{
     text-decoration:none;
     color:inherit;
     font-size:16px;
@@ -66,7 +89,7 @@
     align-items: flex-start;
     margin-right: 24px;
 }
-.botonFarmaciasAderidas{
+.botonFarmaciasAdheridas{
     text-decoration:none;
     color:inherit;
     font-size:16px;
