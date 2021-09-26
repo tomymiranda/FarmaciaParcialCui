@@ -15,9 +15,9 @@
     top: 0px;
 }
 .imagenLogo{
-    position: fixed;
-    left: 46px;
-    top: 24px;
+    position: absolute;
+    left: 48px;
+    top: 16px;
     width: 296px;
     height: 102px;
 }    
