@@ -214,9 +214,12 @@
 .posicionCajaDescuento2{
     position: absolute;
     width: 624px;
-    height: 120px;
+    height: 144px;
     left: 64px;
     top: 506px;
+
+    border:1px solid #000;
+    border-style: dotted;
 
 background: #EAE9E9;
 }
@@ -226,10 +229,43 @@ background: #EAE9E9;
     height: 72px;
     left: 266px;
 }
+.posLetraDescuento2{
+    position: absolute;
+    width: 296px;
+    height: 60px;
+    left: 164px;
+    top: 60px
+}
 .posiocionCajaSucursal2{
     position: absolute;
     width: 624px;
     height: 144px;
     left: 688px;
     top: 506px;
+
+    border:1px solid #000;
+    border-style: dotted;
+
+    background: #EAE9E9;
+}
+.posNombreFarmacia2{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+.posDireccionFarmacia2{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 0px;
+    top: 32px;
+}
+.posFechaVencimiento2{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 0px;
+    top: 72px;
 }
