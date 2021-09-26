@@ -1,7 +1,7 @@
 .fondoDePagina{
     background-color:white;
 }
-
+/*el header*/
 .cajaDContenedoraHeader{
     position: absolute;
     width: 1408px;
@@ -102,6 +102,7 @@
     align-items: flex-start;
     margin-right: 24px;
 }
+/*tipografia de numero y descuento*/
 .numeroDescuento{
     font-family: 'Open Sans', sans-serif;
     font-size: 48px;
@@ -166,6 +167,7 @@
     height: 144px;
     left: 64px;
     top: 338px;
+    margin-left: 64px;
 }
 .posiocionCajaSucursal1{
     
@@ -218,6 +220,7 @@
     height: 144px;
     left: 64px;
     top: 506px;
+    margin-left: 64px;
 }
 .posDescuentoNumero2{
     position: absolute;
@@ -230,7 +233,7 @@
     width: 296px;
     height: 60px;
     left: 164px;
-    top: 60px
+    top: 60px;
 }
 .posiocionCajaSucursal2{
     position: absolute;
@@ -269,8 +272,7 @@
     height: 144px;
     left: 64px;
     top: 674px;
-    
-    background: #EAE9E9;
+    margin-left: 64px;
 }
 
 .posiocionCajaSucursal3{
