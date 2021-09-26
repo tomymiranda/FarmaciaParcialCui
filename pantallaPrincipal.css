@@ -153,11 +153,14 @@
     align-items: flex-end;
     text-align: left;
 }
-/*posiciones descuento 1*/
-.posicionCajaDescuento1{
+.efectoParaCupones{
     background-color:#EAE9E9;
     border:1px solid #000;
     border-style: dotted;
+}
+/*posiciones descuento 1*/
+.posicionCajaDescuento1{
+    
     position: absolute;
     width: 624px;
     height: 144px;
@@ -165,9 +168,7 @@
     top: 338px;
 }
 .posiocionCajaSucursal1{
-    background-color:#EAE9E9;
-    border:1px solid #000;
-    border-style: dotted;
+    
     position: absolute;
     width: 624px;
     height: 144px;
@@ -217,11 +218,6 @@
     height: 144px;
     left: 64px;
     top: 506px;
-
-    border:1px solid #000;
-    border-style: dotted;
-
-background: #EAE9E9;
 }
 .posDescuentoNumero2{
     position: absolute;
@@ -243,10 +239,7 @@ background: #EAE9E9;
     left: 688px;
     top: 506px;
 
-    border:1px solid #000;
-    border-style: dotted;
-
-    background: #EAE9E9;
+    
 }
 .posNombreFarmacia2{
     position: absolute;
@@ -263,6 +256,59 @@ background: #EAE9E9;
     top: 32px;
 }
 .posFechaVencimiento2{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 0px;
+    top: 72px;
+}
+/*posiciones descuento 3*/
+.posicionCajaDescuento3{
+    position: absolute;
+    width: 624px;
+    height: 144px;
+    left: 64px;
+    top: 674px;
+    
+    background: #EAE9E9;
+}
+
+.posiocionCajaSucursal3{
+    position: absolute;
+    width: 624px;
+    height: 144px;
+    left: 688px;
+    top: 674px;
+}
+.posDescuentoNumero3{
+    position: absolute;
+    width: 90px;
+    height: 72px;
+    left: 266px;
+    top: 0px;
+}
+.posLetraDescuento3{
+    position: absolute;
+    width: 296px;
+    height: 60px;
+    left: 164px;
+    top: 60px;
+}
+.posNombreFarmacia3{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+.posDireccionFarmacia3{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 0px;
+    top: 32px;
+}
+.posFechaVencimiento3{
     position: absolute;
     width: 400px;
     height: 40px;
