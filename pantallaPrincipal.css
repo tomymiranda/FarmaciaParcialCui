@@ -3,7 +3,7 @@
 }
 .barraAmarilla{
     position: absolute;
-    width: 1408px;
+    width: 1348px;
     height: 8px;
     background-color: #fdd306;
     top: 0px;
@@ -12,13 +12,13 @@
 /*el header*/
 .cajaDContenedoraHeader{
     position: absolute;
-    width: 1408px;
+    width: 1348px;
     height: 136px;
     left: 0px;
 }
 .posicionBarraMenu{
     position: absolute;
-    left: 480px;
+    left: 400px;
     width: 880px;
     top: 0px;
 }
@@ -144,7 +144,7 @@
     position: absolute;
     width: 624px;
     height: 144px;
-    left: 64px;
+    left: 48px;
     top: 200px;
     
     background-color: #fdd306;
@@ -154,7 +154,7 @@
     position: absolute;
     width: 624px;
     height: 144px;
-    left: 688px;
+    left: 672px;
     top: 200px;
     background-color: #fdd306;
 }
@@ -199,7 +199,7 @@
     position: absolute;
     width: 624px;
     height: 144px;
-    left: 64px;
+    left: 48px;
     top: 360px;
     margin-top: 24px;
     background-color: #fdd306;
@@ -208,7 +208,7 @@
     position: absolute;
     width: 624px;
     height: 144px;
-    left: 688px;
+    left: 672px;
     top: 360px;
     margin-top: 24px;
     background-color: #fdd306;    
@@ -253,7 +253,7 @@
     position: absolute;
     width: 624px;
     height: 144px;
-    left: 64px;
+    left: 48px;
     top: 544px;
     margin-top: 24px;
     background-color: #fdd306;
@@ -263,7 +263,7 @@
     position: absolute;
     width: 624px;
     height: 144px;
-    left: 688px;
+    left: 672px;
     top: 544px;
     margin-top: 24px;
     background-color: #fdd306;
