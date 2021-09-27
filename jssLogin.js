@@ -1,7 +1,7 @@
 var usuario = document.getElementById("ingresoUsuario");
 var clave = document.getElementById("claveUsuario");
 var fomulario = document.getElementById("formulario");
-var regExp = /^([0-9])*$/;   //[0123456789]{1,8}/;
+var regExp = /^([0-9])*$/;
 
 fomulario.addEventListener('submit', function (event) {
   if(!regExp.test(usuario.value)){
