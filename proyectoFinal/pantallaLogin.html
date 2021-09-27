@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Login</title>
+  <link rel="stylesheet" href="pantallaLogin.css">
+</head>
+<body class="fondoDePagina">
+
+  <div>
+    <img class ="logoImagenLogin" src="logo 500.png">
+    <!--<img class="logoImagenLogin" src="logo 700.png">-->
+  </div>
+
+  <div class="cajaContenedora">
+    <div>
+      <h1 class="tituloDeBienvenidaLogin">Bienvenido otra vez</h1>
+    </div>
+
+    <div>
+      <form name="formulario1" id="formulario" action="pantallaPrincipal.html">
+        <div>
+          <input id="ingresoUsuario" name="usuario" placeholder ="Usuario" class="cajaUsuario"><br>
+        </div>
+        <div>
+          <input id="claveUsuario"type="password" name="contraseña" placeholder ="Contraseña" class="cajaContraseña" minslength="4"><br>
+        </div>
+        <div>
+          <button id ="botonIniciarSesion" type="submit" class="botonIniciarSesion">Iniciar sesion</button>
+        </div>
+      </form>
+      
+      
+    </div>
+
+    
+    <div>
+      <a href="#" class="acasoOlvidasteContrasenia">Acaso olvidaste tu Contraseña?</a>
+    </div>
+    <div>
+      <button class="crearCuenta">Crear cuenta</button>
+    </div>
+  </div>
+  
+  <script src="jssLogin.js"></script>
+  <!--<script src="jsFuncionalidad.js"></script>-->
+</body>
+</html>
