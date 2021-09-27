@@ -16,7 +16,7 @@
     height: 136px;
     left: 0px;
 }
-.posicionBarraMenu{
+.medidasContenedorMenu{
     position: absolute;
     left: 400px;
     width: 880px;
@@ -29,12 +29,12 @@
     width: 296px;
     height: 102px;
 }    
-.pos{
+.posMenu{
     text-align: right;
     margin: 24px;
 }
 
-.posicionDeCajasDeHeader{
+.visualizacionEnBloque{
     display:inline-block;
 }
 
@@ -139,7 +139,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /*posiciones descuento 1*/
-.posicionCajaDescuento1{
+.medidaYPosicionCajaDescuento1{
     
     position: absolute;
     width: 624px;
@@ -149,7 +149,7 @@
     
     background-color: #fdd306;
 }
-.posiocionCajaSucursal1{
+.medidaYPosicionCajaSucursal1{
     
     position: absolute;
     width: 624px;
@@ -158,28 +158,28 @@
     top: 200px;
     background-color: #fdd306;
 }
-.posDescuentoNumero1{
+.medidaYPosicionDescuentoNumero1{
     position: absolute;
     width: 90px;
     height: 72px;
     left: 266px;
     top: 0px;
 }
-.posLetraDescuento1{
+.medidaYPosicionLetraDescuento1{
     position: absolute;
     width: 296px;
     height: 60px;
     left: 164px;
     top: 60px;
 }
-.posNombreFarmacia1{
+.medidaYPosicionNombreFarmacia1{
     position: absolute;
     width: 400px;
     height: 40px;
     left: 0px;
     top: 0px;
 }
-.posDireccionFarmacia1{
+.medidaYPosicionDireccionFarmacia1{
     position: absolute;
     width: 400px;
     height: 40px;
@@ -187,7 +187,7 @@
     top: 32px;
     
 }
-.posFechaVencimiento1{
+.medidaYPosicionFechaVencimiento1{
     position: absolute;
     width: 400px;
     height: 40px;
@@ -195,7 +195,7 @@
     top: 72px;
 }
 /*posiciones descuento 2*/
-.posicionCajaDescuento2{
+.medidaYPosicionCajaDescuento2{
     position: absolute;
     width: 624px;
     height: 144px;
@@ -204,7 +204,7 @@
     margin-top: 24px;
     background-color: #fdd306;
 }
-.posiocionCajaSucursal2{
+.medidaYPosicionCajaSucursal2{
     position: absolute;
     width: 624px;
     height: 144px;
@@ -213,13 +213,13 @@
     margin-top: 24px;
     background-color: #fdd306;    
 }
-.posDescuentoNumero2{
+.medidaYPosicionDescuentoNumero2{
     position: absolute;
     width: 90px;
     height: 72px;
     left: 266px;
 }
-.posLetraDescuento2{
+.medidaYPosicionLetraDescuento2{
     position: absolute;
     width: 296px;
     height: 60px;
@@ -227,21 +227,21 @@
     top: 60px;
 }
 
-.posNombreFarmacia2{
+.medidaYPosicionNombreFarmacia2{
     position: absolute;
     width: 400px;
     height: 40px;
     left: 0px;
     top: 0px;
 }
-.posDireccionFarmacia2{
+.medidaYPosicionDireccionFarmacia2{
     position: absolute;
     width: 400px;
     height: 40px;
     left: 0px;
     top: 32px;
 }
-.posFechaVencimiento2{
+.medidaYPosicionFechaVencimiento2{
     position: absolute;
     width: 400px;
     height: 40px;
@@ -249,7 +249,7 @@
     top: 72px;
 }
 /*posiciones descuento 3*/
-.posicionCajaDescuento3{
+.medidaYPosicionCajaDescuento3{
     position: absolute;
     width: 624px;
     height: 144px;
@@ -259,7 +259,7 @@
     background-color: #fdd306;
 }
 
-.posiocionCajaSucursal3{
+.medidaYPosicionCajaSucursal3{
     position: absolute;
     width: 624px;
     height: 144px;
@@ -268,35 +268,35 @@
     margin-top: 24px;
     background-color: #fdd306;
 }
-.posDescuentoNumero3{
+.medidaYPosicionDescuentoNumero3{
     position: absolute;
     width: 90px;
     height: 72px;
     left: 266px;
     top: 0px;
 }
-.posLetraDescuento3{
+.medidaYPosicionLetraDescuento3{
     position: absolute;
     width: 296px;
     height: 60px;
     left: 164px;
     top: 60px;
 }
-.posNombreFarmacia3{
+.medidaYPosicionNombreFarmacia3{
     position: absolute;
     width: 400px;
     height: 40px;
     left: 0px;
     top: 0px;
 }
-.posDireccionFarmacia3{
+.medidaYPosicionDireccionFarmacia3{
     position: absolute;
     width: 400px;
     height: 40px;
     left: 0px;
     top: 32px;
 }
-.posFechaVencimiento3{
+.medidaYPosicionFechaVencimiento3{
     position: absolute;
     width: 400px;
     height: 40px;
