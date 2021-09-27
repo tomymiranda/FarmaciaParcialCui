@@ -19,13 +19,22 @@
     </div>
 
     <div>
-      <input id="ingresoUsuario" name="cajaUsuario" placeholder ="Usuario" class="cajaUsuario"><br>
-      <input id="claveUsuario"type="password" name="cajaContraseña" placeholder ="Contraseña" class="cajaContraseña" minslength="4"><br>
+      <form name="formulario1" id="formulario" action="pantallaPrincipal.html">
+        <div>
+          <input id="ingresoUsuario" name="cajaUsuario" placeholder ="Usuario" class="cajaUsuario"><br>
+        </div>
+        <div>
+          <input id="claveUsuario"type="password" name="cajaContraseña" placeholder ="Contraseña" class="cajaContraseña" minslength="4"><br>
+        </div>
+        <div>
+          <button id ="botonIniciarSesion" type="submit" class="botonIniciarSesion">Iniciar sesion</button>
+        </div>
+      </form>
+      
+      
     </div>
 
-    <div>
-      <button id ="botonIniciarSesion" type="submit" class="botonIniciarSesion">Iniciar sesion</button>
-    </div>
+    
     <div>
       <a href="#" class="acasoOlvidasteContrasenia">Acaso olvidaste tu Contraseña?</a>
     </div>
@@ -35,5 +44,6 @@
   </div>
   
   <script src="jssLogin.js"></script>
+  <!--<script src="jsFuncionalidad.js"></script>-->
 </body>
 </html>
