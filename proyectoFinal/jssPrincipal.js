@@ -1,5 +1,5 @@
 function redirigir(){
-    window.location.href ="pantallaLogin.html";
+    window.location.href ="index.html";
   }
 
 const queryString = window.location.search;
